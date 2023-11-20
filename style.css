@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+}
+main {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.navbar ul {
+  list-style-type: none;
+  position: relative;
+  width: 1920px;
+  height: 200px;
+  background-color: #ffffff;
+  padding: 0px;
+  margin: 20px;
+  overflow: hidden;
+}
+.navbar .main {
+  position: absolute;
+  top: 76px;
+  left: 150px;
+  font-family: var(--web-EN-head-2-font-family);
+  font-weight: var(--web-EN-head-2-font-weight);
+}
+.navbar .work .resume .linkedin {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--web-EN-body-1-font-family);
+  font-weight: var(--web-EN-body-1-font-weight);
+  color: #888888;
+  font-size: var(--web-EN-body-1-font-size);
+  letter-spacing: var(--web-EN-body-1-letter-spacing);
+  line-height: var(--web-EN-body-1-line-height);
+  white-space: nowrap;
+  font-style: var(--web-EN-body-1-font-style);
+}
+.navbar.div {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 100px;
+  position: absolute;
+  top: 78px;
+  left: 1312px;
+}
+.navbar a {
+  color: #111111;
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover {
+  color: blue;
+}
+.navbar li {
+  float: left;
+}
+
+.thumbnail1 {
+  position: x=300, y=792;
+}
