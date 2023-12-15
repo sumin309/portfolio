@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.a {
+  font-family: Poppins, Nunito-sans;
+}
+
+@layer base {
+  :root {
+  }
+}
+
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.head1 {
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 170%;
+}
+
+.head2 {
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 170%;
+}
+
+.head3 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+}
+
+.head4 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+}
+
+.head5 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+}
+
+.head4:hover {
+  color: #111;
+}
+
+.body1 {
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.body2 {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.body3 {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.caption {
+  font-family: Nunito Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
