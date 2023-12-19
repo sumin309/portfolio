@@ -18,17 +18,17 @@
 
 .head1 {
   font-family: Poppins;
-  font-size: 45px;
+  font-size: 64px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 170%;
 }
 
 .head2 {
   font-family: Poppins;
-  font-size: 26px;
+  font-size: 28px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 170%;
 }
 
@@ -36,7 +36,7 @@
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 170%;
 }
 
@@ -44,20 +44,16 @@
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 170%;
 }
 
 .head5 {
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 170%;
-}
-
-.head4:hover {
-  color: #111;
 }
 
 .body1 {
