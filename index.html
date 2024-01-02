@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Su-Min Hong</title>
     <link href="input.css" rel="stylesheet" />
@@ -20,16 +21,27 @@
 
       gtag("config", "G-XCVMV33RHM");
     </script>
-</head>
+  </head>
   <body>
     <nav
-      class="h-[120px] flex justify-between w-full items-center pl-[100px] pr-[83px]"
+      class="h-[120px] flex justify-between w-full items-center pl-[100px] tablet:pl-[50px] mobile:pl-[16px] pr-[83px] tablet:pr-[50px] mobile:pr-[119px]"
     >
-      <a href="index.html" class="head3">Su-Min Hong</a>
-      <ul class="flex gap-[80px]">
-        <li><a href="index.html" class="head5">Work</a></li>
+      <a href="index.html" class="font-head font-bold text-h3 tablet:text-h3"
+        >Su-Min Hong</a
+      >
+      <ul class="flex gap-[80px] tablet:gap-[50px]">
         <li>
-          <a href="https://drive.google.com/file/d/1Ds4od5u_GD1Z-MSfbzVXN-6VaycZqEqe/view?usp=sharing"  target="_blank" class="head5 text-gray-400 hover:text-gray-950"
+          <a
+            href="index.html"
+            class="font-head font-medium text-b2 text-blue-600"
+            >Work</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://drive.google.com/file/d/1Ds4od5u_GD1Z-MSfbzVXN-6VaycZqEqe/view?usp=sharing"
+            target="_blank"
+            class="font-head font-medium text-b2 text-gray-400 hover:text-blue-600"
             >Resume</a
           >
         </li>
@@ -37,76 +49,90 @@
           <a
             href="https://www.linkedin.com/in/suminhong/"
             target="_blank"
-            class="head5 text-gray-400 hover:text-gray-950"
+            class="font-head font-medium text-b2 text-gray-400 hover:text-blue-600"
             >Linkedin</a
           >
         </li>
       </ul>
     </nav>
 
-    <div class="h-[200px] flex items-center pl-[200px] body2">
+    <div
+      class="mt-[108px] flex items-center pl-[300px] pr-[16px] font-body text-b2 tablet:pl-[50px] mobile:pl-[16px] text-b3"
+    >
       Hello, I'm Su-Min Hong, a product designer who is passionate about UX.<br />
       Over the years, I have honed my skills to create designs that not only
       captivate <br />
       aesthetically but also seamlessly guide users through a delightful and
       meaningful experience.
+      <img src="758530901.png" />
     </div>
 
-    <div class="h-[1400px] px-[200px] py-[100px] bg-slate-50">
-      <div class="flex flex-row flex-wrap gap-x-[30px]">
-        <div class="flex-col">
-          <a href="harvy.html">
-            <img
-              class="rounded hover:scale-[1.02]"
-              src="./img/1.png"
-              alt="harvy"
-            />
-          </a>
-          <div class="head3 mt-3">Harvy</div>
-          <div class="body2 text-gray-600">ex</div>
-          <div class="body4 text-gray-400 mb-20">tag</div>
-        </div>
+    <div class="mt-[108px] w-[1920px] h-[1480px] bg-slate-50 pt-[80px]">
+      <div class="container">
+        <ul
+          class="w-screen grid grid-cols-2 justify-self-center gap-[30px] tablet:px-[50px] mobile:grid-cols-1 mobile:px-[16px]"
+        >
+          <li class="group">
+            <a href="harvy.html" class="block">
+              <img
+                class="object-cover rounded hover:scale-[1.02]"
+                src="./img/1.png"
+                alt="harvy"
+              />
+              <div class="flex flex-col mt-1">
+                <div class="font-head font-bold text-b1 mt-3">Harvy</div>
+                <div class="font-body text-b2 text-gray-600">ex</div>
+                <div class="font-body text-b3 text-gray-400">tag</div>
+              </div>
+            </a>
+          </li>
 
-        <div class="flex-col">
-          <a href="medion.html">
-            <img
-              class="rounded hover:scale-[1.02]"
-              src="./img/2.png"
-              alt="2"
-            />
-          </a>
-          <div class="head3 mt-3">Medion</div>
-          <div class="body2 text-gray-600">ex</div>
-          <div class="body4 text-gray-400 mb-20">tag</div>
-        </div>
+          <li class="group">
+            <a href="medion.html" class="block">
+              <img
+                class="object-cover rounded hover:scale-[1.02]"
+                src="./img/2.png"
+                alt="2"
+              />
+              <div class="flex flex-col mt-3">
+                <div class="text-head3 mt-3">Medion</div>
+                <div class="text-body2 text-gray-600">ex</div>
+                <div class="text-body4 text-gray-400 mb-2">tag</div>
+              </div>
+            </a>
+          </li>
 
-      <div class="flex-col">
-        <a href="medion.html">
-          <img
-            class="rounded hover:scale-[1.02]"
-            src="./img/3.png"
-            alt="3"
-          />
-        </a>
-        <div class="head3 mt-3">Harvy</div>
-        <div class="body2 text-gray-600">ex</div>
-        <div class="body4 text-gray-400 mb-20">tag</div>
-        </div>
+          <li class="group">
+            <a href="harvy.html" class="block">
+              <img
+                class="object-cover rounded hover:scale-[1.02]"
+                src="./img/3.png"
+                alt="3"
+              />
+              <div class="flex flex-col gap-1 mt-3">
+                <div class="text-b1">Harvy</div>
+                <div class="text-body2 text-gray-600">ex</div>
+                <div class="text-body4 text-gray-400 mb-2">tag</div>
+              </div>
+            </a>
+          </li>
 
-        <div class="flex-col">
-        <a href="medion.html">
-          <img
-            class="rounded hover:scale-[1.02]"
-            src="./img/4.png"
-            alt="2"
-          />
-        </a>
-        <div class="head3 mt-3">Medion</div>
-        <div class="body2 text-gray-600">ex</div>
-        <div class="body4 text-gray-400 mb-20">tag</div>
-        </div>
+          <li class="group">
+            <a href="medion.html" class="block">
+              <img
+                class="object-cover rounded hover:scale-[1.02]"
+                src="./img/4.png"
+                alt="4"
+              />
+              <div class="flex flex-col gap-1 mt-3">
+                <div class="text-head3 mt-3">Medion</div>
+                <div class="text-body2 text-gray-600">ex</div>
+                <div class="text-body4 text-gray-400 mb-2">tag</div>
+              </div>
+            </a>
+          </li>
+        </ul>
       </div>
-    </div>
     </div>
   </body>
 </html>

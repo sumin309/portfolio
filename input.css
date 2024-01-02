@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "poppins-bld";
+  src: url("./font/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "poppins-rg";
+  src: url("./font/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "nunito-bld";
+  src: url("./font/NunitoSans_10pt-Bold.ttf");
+}
+
+@font-face {
+  font-family: "nunito-rg";
+  src: url("./font/NunitoSans_10pt-Regular.ttf");
+}
+
 .a {
   font-family: Poppins, Nunito-sans;
 }
@@ -14,76 +34,4 @@
 .body {
   margin: 0px;
   padding: 0px;
-}
-
-.head1 {
-  font-family: Poppins;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 165%;
-}
-
-.head2 {
-  font-family: Poppins;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 165%;
-}
-
-.head3 {
-  font-family: Poppins;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 165%;
-}
-
-.head4 {
-  font-family: Poppins;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 170%;
-}
-
-.head5 {
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 165%;
-}
-
-.body1 {
-  font-family: Nunito Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 165%;
-}
-
-.body2 {
-  font-family: Nunito Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 165%;
-}
-
-.body3 {
-  font-family: Nunito Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 180%;
-}
-
-.caption {
-  font-family: Nunito Sans;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 165%;
 }

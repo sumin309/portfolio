@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+tailwind.config = {
   content: ["index.html"],
   theme: {
     fontFamily: {
@@ -7,18 +7,32 @@ module.exports = {
       body: ["Nunito Sans"],
     },
     fontSize: {
-      cp: ["14px"],
-      bd3: ["16px"],
-      bd2: ["18px"],
-      bd1: ["20px"],
-      hd3: ["24px"],
-      hd2: ["28px"],
-      hd1: ["45px"],
+      c: ["14px"],
+      b3: ["16px"],
+      b2: ["18px"],
+      b1: ["20px"],
+      h3: ["24px"],
+      h2: ["28px"],
+      h1: ["64px"],
     },
     screens: {
-      sm: "576px",
-      md: "960px",
-      lg: "1440px",
+      desktop: [
+        {
+          min: "1025px",
+        },
+      ],
+      tablet: [
+        {
+          min: "481px",
+          max: "1024px",
+        },
+      ],
+      mobile: [
+        {
+          min: "0px",
+          max: "480px",
+        },
+      ],
     },
     extend: {},
   },
